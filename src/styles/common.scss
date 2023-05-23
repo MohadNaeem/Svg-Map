@@ -1,0 +1,49 @@
+.mattersDialog .k-dialog-titlebar {
+    display: none;
+}
+
+.mattersDialog .k-dialog-content {
+    margin: 0 25px 20px 25px;
+    padding-top: 15px;
+    overflow: auto;
+}
+
+.mattersDialog .k-dialog {
+    width: 40%;
+    border-radius: 20px;
+}
+
+
+.mattersDialogField input {
+    width: 70%;
+    border-radius: 4px;
+}
+
+.mattersDialogButtons {
+    padding-top: 10px;
+    float: right;
+}
+
+.reverseBtn {
+    border: none;
+    background-color: #0b1dc9;
+    color: #fff;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.editBtn {
+    border: none;
+    background-color: #dee5f7;
+    padding: 7px 13px;
+    color: #0b1dc9;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.svgMap{
+    width: 50%;
+    height: 50%;
+    margin: 5% auto 0 auto;
+}
