@@ -17,6 +17,7 @@ function MapComponent() {
         })
     }
     const handleSubmit = (event) => {
+        setEditItem(event)
         svgData.splice(svgData.indexOf(editItem), 1);
         const data = [...svgData, event]
         setSvgData(data);
@@ -24,6 +25,10 @@ function MapComponent() {
     };
     return (<>
         {editItem.id && <button className="reverseBtn" onClick={() => { setShowForm(true) }}>Update</button>}
+        <div>
+            <h2>{editItem.name}</h2>
+            <span>{editItem.no}</span>
+        </div>
         <div className="svgMap">
             <SvgComponent editSvg={editSvg} editItem={editItem} />
         </div>
